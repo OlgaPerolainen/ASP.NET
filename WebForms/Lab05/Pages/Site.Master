@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RSVP.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>RSVP</title>
+    <link rel="stylesheet" type="text/css" href="../Style/Styles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td colspan="2" class="auto-style2">
+                        <h2>RSVP</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;
+                        <div class="menu">
+                            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Vertical" ForeColor="Maroon">
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="../Pages/Start.aspx" Text="Главная" />
+                                    <asp:MenuItem NavigateUrl="../ex1.Validation/Reg.aspx" Text="Регистрация" />
+                                    <asp:MenuItem NavigateUrl="../Pages/Summary.aspx" Text="Отчет о регистрации" />
+                                    <asp:MenuItem NavigateUrl="../Pages/About.aspx" Text="Подробности" />
+                                </Items>
+                            </asp:Menu>
+                        </div>
+                    </td>
+                    <td class="auto-style4">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="auto-style2">&nbsp;
+                        <div id="temo_footer">
+                            <ul class="footer_menu">
+                                <li><a href="../Pages/Start.aspx">Главная</a></li>
+                                <li><a href="../ex1.Validation/Reg.aspx">Регистрация</a></li>
+                                <li><a href="../Pages/Summary.aspx">Отчет о регистрации</a></li>
+                                <li><a href="../Pages/About.aspx">Подробности</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
