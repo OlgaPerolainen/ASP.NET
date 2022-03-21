@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentSiteMaster.master.cs" Inherits="ASP.FinalLab.StudentProgress.Pages.StudentSiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../SiteStyle/Style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td class="header_menu_style" colspan="2">
+                        <div class="header_image">
+                            <a href="Home.aspx"><img src="../Images/graduation-cap.png" id="student_cap"/></a>
+                        </div>
+                        <div id="header_menu">
+                           <ul class="header_menu">
+                               <li><a href="Home.aspx">Все студенты</a></li>
+                               <li><a href="NewStudentPage.aspx?new=1">Регистрация нового студента</a></li>
+                               <li><a href="UpdateStudentInfo.aspx">Изменить данные о студенте</a></li>
+                               <li><a href="GradesPage.aspx">Успеваемость</a></li>
+                           </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="content">
+                    <td class="menu_container_style">
+                        <div class="menu_vertical">
+                            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Vertical">
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/Pages/Home.aspx" Text="Все студенты"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Pages/NewStudentPage.aspx?new=1" Text="Регистрация нового студента"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Pages/UpdateStudentInfo.aspx" Text="Изменить данные о студенте"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Pages/GradesPage.aspx" Text="Успеваемость"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </div>
+                    </td>
+                    <td class="content_holder">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="footer" colspan="2">&copy;Students and Grades<br /><% =GetDate().Year %></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
