@@ -1,0 +1,260 @@
+﻿.auto-style1 {
+    width: 100%;
+}
+.content {
+    height: 300px;
+}
+.header_menu li {
+    margin: 0;
+    padding: 0px 20px;
+    display: inline;
+    border-right: 1px solid white;
+    color: white;
+}
+#header_menu {
+    padding: 20px 0 20px 0;
+    text-align:center;
+}
+.header_image {
+    margin: 0;
+    padding: 4px 0 0 25px;
+    text-align: center;
+    background-color: maroon;
+    float: left;
+}
+.header_menu_style {
+    background-color: maroon;
+}
+
+.menu_container_style {
+    vertical-align:super;
+    width: 260px;
+    background-color: maroon;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+.menu_vertical {
+    margin-top: 140px;
+    padding: 10px;
+    margin-bottom: 140px;
+}
+.footer {
+    text-align: center;
+}
+a:link{
+    color: white;
+    text-decoration:none;
+}
+a:hover, a:visited:hover {
+    color: darkgoldenrod;
+}
+a:visited {
+    color: white;
+}
+#student_cap {
+    height: 90px;
+    width: 90px;
+}
+.user_control_table {
+    min-width: 332px;
+    min-height: 338px;
+    margin: 15px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 15px;
+    border-style: double;
+    border-color: beige;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+    float: left;
+}
+.student_cards_holder {
+    margin-left: 10px;
+    padding: 0;
+}
+.student_cards_holder li{
+    display: inline;
+}
+.new_student_card {
+    width: 332px;
+    height: 338px;
+    margin: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 15px;
+    border-style: double;
+    border-color: gainsboro;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+    float: left;
+}
+.btns_update_delete {
+    width: 150px;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 40px;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.btn_grades {
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 40px;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.statistics {
+    margin: 10px;
+    padding: 0;
+}
+.statistics  li{
+    display: inline;
+    position:sticky;
+    padding: 0 5px;
+    width:98%;
+}
+.btn_statistics {
+    margin: 0;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 16px;
+}
+.btn_grade_statistics {
+    margin-top: 10px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 250px;
+    width: 48% !important;
+    font-size: 16px;
+}
+.btn_SubmitForm {
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    min-height: 50px;
+}
+.btn_choose_student_course {
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    width: 95%;
+    font-size: 16px;
+    text-align: center;
+}
+.formDataInput {
+    margin: 10px;
+    padding: 15px 20px;
+    width: 96%;
+    background-color: beige;
+    border-radius: 15px;
+    border-style: double;
+    border-color: lightyellow;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+}
+.column1 {
+    width: 160px;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+}
+.column1 label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.column2 {
+    width: 80%;
+    margin:10px;
+    padding: 10px;
+    text-anchor: middle;
+}
+.column2 input {
+    margin: 10px 10px 10px auto;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+}
+.column3 {
+    margin: 15px;
+}
+.column3 label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 5px;
+}.column4 {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    min-width: 400px;
+}
+.column4 input {
+    margin: 10px 10px 10px 0;
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    text-align: left;
+}
+.txtBoxGrade {
+    margin: 10px;
+    padding: 10px;
+    width: 50% !important;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 3px 3px;
+    text-align:left;
+}
+.formDataInput input[type=submit], .btnStyle {
+    margin: 15px 10px 10px 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 45px;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+}
+#img_plus_sign {
+    width: 250px;
+    height: 250px;
+}
+.dropDownLists {
+    margin: 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.panel {
+    margin: 0;
+    padding: 0 20px;
+    width: 95%;
+    min-height: 200px;
+    border-block-color:gainsboro;
+    border-radius: 10px;
+    box-shadow: rgb(239 239 235) 1px 2px 5px 6px;
+}
+.panel li{
+    list-style-type: none;
+}
